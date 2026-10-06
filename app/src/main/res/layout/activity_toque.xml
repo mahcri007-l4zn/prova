@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/telaToque"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Toque na tela"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvPosicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="X: -   Y: -"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Encoste o dedo em qualquer lugar"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+
+        <Button
+            android:id="@+id/btnMedia"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="media" />
+
+        <Button
+            android:id="@+id/btnAcelerometro"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="acelerometro" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bolinha"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/circulo_toque"
+        android:visibility="invisible" />
+
+</FrameLayout>

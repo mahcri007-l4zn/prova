@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma tela"
+        android:textSize="24sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnAcelerometro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acelerômetro (X, Y, Z)" />
+
+    <Button
+        android:id="@+id/btnToque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posição do toque (X, Y)" />
+
+    <Button
+        android:id="@+id/btnMedia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cálculo de média" />
+
+</LinearLayout>

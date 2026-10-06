@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acelerômetro"
+        android:textSize="24sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X (lados): -"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y (frente/trás): -"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z (cima/baixo): -"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="126dp" />
+
+    <Button
+        android:id="@+id/btnMedia"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:text="Media" />
+
+    <Button
+        android:id="@+id/btnToque"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:text="Toque" />
+
+</LinearLayout>
